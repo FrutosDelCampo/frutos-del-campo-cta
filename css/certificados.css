@@ -57,6 +57,12 @@
     background-color: var(--verde_claro);
 }
 
+.descargar-certificado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .certificate-info svg {
     color: #fff;
     width: 25px;
@@ -104,4 +110,29 @@
 
 .certificate svg {
     color: #fff;
+}
+
+@media (max-width:895px) {
+    .certificate {
+        grid-template-columns: 100%;
+    }
+    .certificate-imges {
+        display: flex;
+        justify-content: center;
+    }
+    .certificate__container {
+        order: 1;
+        padding: 20px 50px;
+    }
+    .certificate-imges img {
+        width: 70%;
+    }
+    .certificate-info {
+        text-align: center;
+        padding: 20px 50px;
+        align-items: center;
+    }
+    .certificate-info a {
+        padding: 10px;
+    }
 }
