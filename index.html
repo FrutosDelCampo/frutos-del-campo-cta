@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Frutas de la mejor calidad al mejor precio, estamos en más de 5 paises y orgullosamente Colombianos" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624395247/img/logo_befaif.png">
+    <title>Frutos del campo CTA</title>
+    <meta name="viewport" content="width=device-width, inictial-scale=1.0" />
+    <!-- Fuentes  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- Hojas de estilos -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/inicio.css" />
+    <link rel="stylesheet" href="./css/partners.css" />
+    <link rel="stylesheet" href="./css/quienesSomos.css" />
+    <link rel="stylesheet" href="./css/Calidad.css" />
+    <link rel="stylesheet" href="./css/exportacion.css" />
+    <link rel="stylesheet" href="./css/certificados.css" />
+    <link rel="stylesheet" href="./css/certigallery.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/slide.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div id="app">
+        <header id="head">
+            <a href="#" class="izquierda">
+                <div class="logo">
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624395247/img/logo_befaif.png" alt="Logo">
+                </div>
+                <div class="orgullo">
+                    <p>Orgullosamente <br><strong>Colombianos</strong></p>
+                </div>
+            </a>
+
+
+            <ul :class="menu">
+                <div class="salir" v-on:click="toggleCollapsed">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M11 17l-5-5m0 0l5-5m-5 5h12" />
+                    </svg>
+                </div>
+
+                <p class="op">Cambia tu idioma</p>
+                <div class="idioma">
+                    <strong>ES</strong>
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/colombia_muoy2a.png" alt="español" class="bandera">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </div>
+
+
+                <a href="#inicio" v-on:click="toggleCollapsed">
+                    <li>Inicio</li>
+                </a>
+                <a href="#quienes" v-on:click="toggleCollapsed">
+                    <li>Quiénes somos</li>
+                </a>
+                <a href="#poli" class="politi" v-on:click="toggleCollapsed">
+                    <li>Politica y calidad</li>
+                </a>
+                <a href="#expor" v-on:click="toggleCollapsed">
+                    <li>Exportación</li>
+                </a>
+                <a href="https://swiperjs.com/demos" v-on:click="toggleCollapsed">
+                    <li>Certificados</li>
+                </a>
+                <a href="https://swiperjs.com/demos" v-on:click="toggleCollapsed">
+                    <li>Galería</li>
+                </a>
+                <a href="https://swiperjs.com/demos" v-on:click="toggleCollapsed">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+            <div class="menu__movil" v-on:click="toggleCollapsed">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </div>
+
+
+
+        </header>
+        <main>
+            <section class="inicio" id="inicio">
+                <div class="info">
+                    <h1>Frutos
+                        <br>
+                        <strong>del campo CTA</strong>
+                    </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, dignissimos qui quisquam expedita maxime obcaecati consequuntur explicabo nobis totam doloribus vitae. Provident natus tempore, voluptates numquam explicabo id repellendus
+                        alias!
+                    </p>
+                    <div class="inicio__info">
+                        <a href="#contact" class="boton__info">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                            </svg> Contáctanos
+                        </a>
+                    </div>
+                </div>
+                <div class="portada__i">
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png" alt="Portada" />
+                </div>
+            </section>
+
+
+            <section class="partners">
+                <h2 class="titulo__partners">Nuestros aliados</h2>
+                <div class="partners-container">
+                    <div class="swiper-container cambiar__logos">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide tamano">
+                                <a href="#">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625174246/img/logo_marca-01_pjohwd.svg" class="logo__partners">
+                                </a>
+                            </div>
+                            <div class="swiper-slide tamano">
+                                <a href="#">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625174246/img/logo_marca-01_pjohwd.svg" class="logo__partners">
+                                </a>
+                            </div>
+                            <div class="swiper-slide tamano">
+                                <a href="#">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625174246/img/logo_marca-01_pjohwd.svg" class="logo__partners">
+                                </a>
+                            </div>
+                            <div class="swiper-slide tamano">
+                                <a href="#">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625174246/img/logo_marca-01_pjohwd.svg" class="logo__partners">
+                                </a>
+                            </div>
+                            <div class="swiper-slide tamano">
+                                <a href="#">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625174246/img/logo_marca-01_pjohwd.svg" class="logo__partners">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="quienes-somos" id="quienes">
+                <div class="quienes-somos-imges">
+                    <transition name="fade" mode="out-in">
+                        <img :src="imagen1[posicionActual]" alt="Portada" :key="posicionActual" />
+                    </transition>
+                </div>
+                <div class="quienes-somos-container">
+                    <div class="quienes-somos-button" v-on:click="atras1">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path>
+                            </svg></button>
+                    </div>
+                    <div class="quienes-somos-info">
+                        <transition name="fade" mode="out-in">
+                            <div v-for="(text, index) in texts" v-if="posicionActual == index" :key="text.title">
+                                <h3><strong>{{ text.title }}</strong></h3>
+                                <p>{{ text.paragraph }}</p>
+                            </div>
+                        </transition>
+                        <div class="buttons-container">
+                            <a v-on:click="mostrarTexto1(0)" style="cursor: pointer; " :class="getClase(0)">¿Quiénes
+                                somos?</a>
+                            <a v-on:click="mostrarTexto1(1)" style="cursor: pointer;" :class="getClase(1)">Misión</a>
+                            <a v-on:click="mostrarTexto1(2)" style="cursor: pointer;" :class="getClase(2)">Visión</a>
+                        </div>
+                    </div>
+                    <div class="quienes-somos-button" v-on:click="adelante1">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg></button>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+            <section class="calidad" id="poli">
+                <div class="calidad-container">
+                    <div class="calidad-button" v-on:click="atras2">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path>
+                            </svg></button>
+                    </div>
+                    <div class="calidad-info">
+                        <transition name="fade" mode="out-in">
+                            <div v-for="(text2, index) in texts2" v-if="posicionActual2 == index" :key="text2.title">
+                                <h2><strong>{{ text2.title }}</strong></h2>
+                                <p>{{ text2.paragraph }}</p>
+                            </div>
+                        </transition>
+                        <div class="buttons-container">
+                            <a v-on:click="mostrarTexto2(0)" style="cursor: pointer; " :class="getClase2(0)">Planta empacadora</a>
+                            <a v-on:click="mostrarTexto2(1)" style="cursor: pointer;" :class="getClase2(1)">Cultivo</a>
+                            <a v-on:click="mostrarTexto2(2)" style="cursor: pointer;" :class="getClase2(2)">Calidad</a>
+                        </div>
+                    </div>
+                    <div class="calidad-button" v-on:click="adelante2">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg></button>
+                    </div>
+                </div>
+                <div class="calidad-imges">
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png" alt="Portada" />
+                </div>
+            </section>
+
+
+            <section class="exportacion" id="expor">
+                <div class="exportacion-imges">
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624923597/img/papaya-01_xzi3rs.png" alt="Portada" />
+                </div>
+                <div class="exportacion-info">
+                    <h2>Exportación</h2>
+                    <h4>Papaya Tainung</h4>
+                    <p>Fruta tropical conocida comúnmente como Papaya o lechosa, variedad Tainung, fruto carnoso de textura suave y alto contenido de agua, característico por su pulpa de color naranja intenso, su fresco y dulce sabor. </p>
+                    <div class="descargar">
+                        <a href="#contacto" class="boton__info">Descargar ficha técnica<svg class="w-6 h-6" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="certificate">
+                <div class="certificate__container">
+                    <div class="certificate-button" v-on:click="atras3">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path>
+                            </svg></button>
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Certificados</h3>
+                        <h2><strong>Registro ICA</strong></h2>
+                        <transition name="fade" mode="out-in">
+                            <div v-for="(certificadoDescarga, index) in certificadoDescargas" v-if="posicionActual3 == index" :key="certificadoDescarga.title">
+                                <h4>{{ certificadoDescarga.title }}</h4>
+                                <p>{{ certificadoDescarga.paragraph }}</p>
+                                <a :href="certificadoDescarga.file" target="bank" class="boton__info">Descargar certificado<svg class="w-6 h-6" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                                </svg>
+                            </a>
+                            </div>
+                        </transition>
+                    </div>
+                    <div class="certificate-button" v-on:click="adelante3">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg></button>
+                    </div>
+                </div>
+                <div class="certificate-imges">
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625800272/img/Instituto-Colombiano-Agropecuario-removebg-preview_bcbacm.png" alt="Portada" />
+                </div>
+            </section>
+
+
+            <section class="certigallery">
+                <div class="title-container">
+                    <h2 class="certigallery-title">Certificaciones en proceso</h2>
+                </div>
+                <div class="container-certigallery">
+                    <div class="container-img">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798500/img/logo-grasp-1024x427-1024x427_l8f5ji.png" alt="logo del certificado">
+                    </div>
+                    <div class="container-img">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798476/img/rainforest-alliance-logo_z5lhco.png" alt="logo del certificado">
+                    </div>
+                    <div class="container-img">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798471/img/Imagen1_qtqswq.png" alt="logo del certificado">
+                    </div>
+                    <div class="container-img">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798471/img/Imagen1_qtqswq.png" alt="logo del certificado">
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="gallery">
+                <div class="gallery-container">
+                    <div class="prev button-gallery" v-on:click="atras4">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"d="M15 19l-7-7 7-7"></path></svg></button>
+                    </div>
+                    <div class="swiper-container imagenes">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide video-item" v-on:click="toggleModal">
+                                <img src="https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg" alt="" class="tamano">
+                                <button class=" play-button"><svg xmlns="http://www.w3.org/2000/svg" class="play-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                  </svg></button>
+                            </div>
+
+                            <div class="swiper-slide video-item" v-on:click="toggleModal">
+                                <img src="https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg" class="tamano">
+                                <button class=" play-button"><svg xmlns="http://www.w3.org/2000/svg" class="play-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                  </svg></button>
+                            </div>
+
+                            <div class="swiper-slide video-item" v-on:click="toggleModal">
+                                <img src="https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg" class="tamano">
+                                <button class=" play-button"><svg xmlns="http://www.w3.org/2000/svg" class="play-icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                  </svg></button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="next button-gallery" v-on:click="adelante4">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>
+                    </div>
+                </div>
+                <div class="info-gallery">
+                    <transition name="fade" mode="out-in">
+                        <div v-for="(text4, index) in texts4" v-if="posicionActual4 == index" :key="text4.title">
+                            <h2><strong>{{ text4.title }}</strong></h2>
+                            <p>{{ text4.paragraph }}</p>
+                        </div>
+                    </transition>
+                </div>
+            </section>
+
+
+            <section class="contact-container" id="contact">
+                <div class="grid-container">
+                    <div class="left-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13385.673767538694!2d-73.63309417489694!3d4.104594626730994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cc319586d23559!2sBarrio%201ro%20de%20Mayo!5e0!3m2!1ses!2sco!4v1624422431087!5m2!1ses!2sco"
+                            allowfullscreen="" loading="lazy" class="mapa"></iframe>
+                    </div>
+                    <div class="right-container">
+                        <h1>Dirección </h1>
+                        <a href="https://goo.gl/maps/RLsaEJYfEo4nJcMWA" target="_blank">Calle 49 # 51 sur 49
+                            Norte</a>
+                        <a href="https://goo.gl/maps/RLsaEJYfEo4nJcMWA" target="_blank">Villavicencio, Meta -
+                            Colombia</a>
+                        <br>
+                        <h1>Teléfono</h1>
+                        <a href="tel:+570386666666" class="llamada" target="_blank"><strong> Telefono Distribuidor:
+                            </strong>+57 038 666 66 66</a>
+                        <a href="tel:+570386666666" class="llamada" target="_blank"><strong> Telefono Distribuidor:
+                            </strong>+57 038 666 66 66</a>
+                        <div class="buttons-container">
+                            <a href="mailto:contacto@frutosdelcampocta.com">
+                                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624398397/img/botones_Mesa_de_trabajo_1_grcfkk.png" alt="Botton de gmail" class="contact-button">
+                            </a>
+                            <a href="">
+                                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624398397/img/botones-02_ulv2r8.png" alt="Botton de whatsapp">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer__info">
+                        <p>© Frutos del campo 2021</p>
+                        <a href="http://developmentm.com" class="marca" target="_blank">Powered by:
+                            <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624420438/img/logo_marca-01_wzymsm.svg"
+                                alt="Logo M development" class="marca__desarrollo">
+                        </a>
+                        <div class="redes__sociales">
+                            <p>Síguenos:</p>
+                            <a href="https://www.google.com" target="_blank"><span data-v-6296d154=""
+                                    aria-label="Facebook icon" role="img"><svg data-v-6296d154="" fill="currentColor"
+                                        viewBox="0 0 25 25">
+                                        <path data-v-6296d154=""
+                                            d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z">
+                                            <title data-v-6296d154="">Facebook icon</title>
+                                        </path>
+                                    </svg></span></a>
+                            <a href="https://www.google.com" target="_blank"><span data-v-6296d154=""
+                                    aria-label="Instagram icon" role="img"><svg data-v-6296d154="" fill="currentColor"
+                                        viewBox="0 0 25 25" class="material-design-icon__svg">
+                                        <path data-v-6296d154=""
+                                            d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z">
+                                            <title data-v-6296d154="">Instagram icon</title>
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <a class="arriba" v-on:click="animation">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                </svg>
+            </a>
+
+        </main>
+
+        <div :class="modal">
+            <div class="modal__container">
+                <span id="modalClose" v-on:click="toggleModal">Cerrar</span>
+                <iframe class="video-modal" src="https://www.youtube.com/embed/86f4Qf0gxjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- escribir parentesis en CloseModal  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

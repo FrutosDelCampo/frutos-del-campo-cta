@@ -1,0 +1,107 @@
+.certificate {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.certificate__container {
+    display: flex;
+    padding: 20px;
+}
+
+.certificate-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.certificate-info h2 {
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 50px;
+    color: var(--verde_oscuro);
+}
+
+.certificate-info h3 {
+    font-weight: 400;
+    font-size: 35px;
+    color: var(--verde_oscuro);
+}
+
+.certificate-info h4 {
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--verde_oscuro);
+    line-height: 40px;
+}
+
+.certificate-info p {
+    font-size: 15px;
+    margin: 20px 0 20px;
+}
+
+.certificate-info a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    color: #fff;
+    width: 240px;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--verde_claro);
+}
+
+.certificate-info svg {
+    color: #fff;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.certificate-imges {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate-imges img {
+    max-width: 100%;
+    align-self: center;
+}
+
+.certificate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate-button button {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--verde_claro);
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.30);
+}
+
+.certificate-button button:hover {
+    cursor: pointer;
+}
+
+.certificate-button .chevron {
+    margin: 0;
+    width: 25px;
+}
+
+.certificate svg {
+    color: #fff;
+}

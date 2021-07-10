@@ -1,0 +1,129 @@
+.contact-container {
+    padding-top: 20px;
+    background-color: var(--verde_claro);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.grid-container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-container {
+    color: #fff;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-container h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.right-container p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.right-container a {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttons-container img {
+    padding: 20px 0 0 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-button {
+    margin-right: 10px;
+}
+
+.footer {
+    height: 70px;
+    grid-column: span 1;
+}
+
+.footer__info {
+    display: flex;
+    margin: auto;
+    line-height: 2;
+    padding: 20px;
+    max-width: 1080px;
+    justify-content: space-between;
+}
+
+.footer__info a {
+    text-decoration: none;
+}
+
+.footer p {
+    font-weight: 200;
+    font-size: 14px;
+    color: #fff;
+}
+
+.marca {
+    font-weight: 200;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+}
+
+.marca img {
+    margin-left: 10px;
+    height: 25px;
+}
+
+.redes__sociales {
+    height: 20px;
+    display: flex;
+    align-content: center;
+}
+
+.redes__sociales a {
+    margin: 2px 0;
+}
+
+.redes__sociales p {
+    font-size: 14px;
+    line-height: 2;
+    color: rgb(255, 255, 255);
+}
+
+.redes__sociales svg {
+    width: 25px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+}

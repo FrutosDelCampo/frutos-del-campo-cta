@@ -1,0 +1,126 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.imagenes {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.swiper-container .imagenes {
+    width: 100%;
+}
+
+.video-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide .imagenes {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.button-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev {
+    padding-right: 20px;
+}
+
+.next {
+    padding-left: 20px;
+}
+
+.button-gallery button {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--verde_claro);
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.30);
+}
+
+.button-gallery button:hover {
+    cursor: pointer;
+}
+
+.button-gallery .chevron {
+    margin: 0;
+    width: 25px;
+    color: white;
+}
+
+.play-button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+}
+
+.play-button:hover {
+    cursor: pointer;
+    background-color: var(--verde_oscuro);
+}
+
+.play-icon {
+    width: 100%;
+    color: var(--verde_claro);
+}
+
+.info-gallery {
+    text-align: right;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-gallery h2 {
+    font-size: 40px;
+    color: var(--verde_oscuro);
+}
+
+.info-gallery p {
+    font-size: 15px;
+}
+
+.tamano {
+    width: 100%;
+    height: 100%;
+}
