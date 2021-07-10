@@ -33,3 +33,9 @@
 .container-img img {
     width: 150px;
 }
+
+@media(max-width:895px) {
+    .container-img img {
+        width: 100px;
+    }
+}
