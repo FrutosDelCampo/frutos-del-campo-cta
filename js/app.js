@@ -80,11 +80,7 @@ const app = new Vue({
                 paragraph: " Titulo 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id fuga alias pariatur! Ullam fugiat ea, dolores quia odio enim mollitia asperiores laborum fugit velit quisquam eligendi, unde aliquam. Odio?",
                 /* link: "https://www.youtube.com/watch?v=OwqeTKImq-0", */
             },
-        ],
-
-        linksY:["https://www.youtube.com/watch?v=vvvxUJDrv0c", "https://www.youtube.com/watch?v=vvvxUJDrv0c", "https://www.youtube.com/watch?v=OwqeTKImq-0"],
-
-
+        ], 
         swiperImagenes: null
 
     },
