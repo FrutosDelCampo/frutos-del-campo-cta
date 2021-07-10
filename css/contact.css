@@ -1,10 +1,10 @@
 .contact-container {
-    padding-top: 20px;
     background-color: var(--verde_claro);
     background-repeat: no-repeat;
     background-size: 100vw;
     display: grid;
     grid-template-rows: 1fr auto;
+    padding-top: 20px;
 }
 
 .grid-container {

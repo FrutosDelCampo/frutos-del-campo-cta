@@ -82,6 +82,9 @@ const app = new Vue({
             },
         ],
 
+        linksY:["https://www.youtube.com/watch?v=vvvxUJDrv0c", "https://www.youtube.com/watch?v=vvvxUJDrv0c", "https://www.youtube.com/watch?v=OwqeTKImq-0"],
+
+
         swiperImagenes: null
 
     },
