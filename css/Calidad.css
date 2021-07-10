@@ -1,0 +1,123 @@
+.calidad {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.calidad-container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.calidad-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calidad-button button {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--verde_claro);
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.30);
+}
+
+.calidad-button button:hover {
+    cursor: pointer;
+}
+
+.calidad-button .chevron {
+    margin: 0;
+    width: 25px;
+}
+
+.calidad-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.calidad-info h2 {
+    font-size: 45px;
+    color: var(--verde_oscuro);
+    line-height: 80px;
+}
+
+.calidad-info p {
+    font-size: 15px;
+}
+
+.calidad-info .buttons-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.calidad-info a {
+    margin-right: 20px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 1px var(--verde_claro);
+    background-color: white;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.30);
+    transition: all 500ms;
+}
+
+.calidad-info a:hover {
+    transition: none;
+    color: white;
+    background-color: var(--verde_claro);
+}
+
+.calidad svg {
+    color: #fff;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.calidad-imges {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.calidad-imges img {
+    max-width: 100%;
+}
+
+@media (max-width:895px) {
+    .calidad {
+        grid-template-columns: 100%
+    }
+    .calidad-imges {
+        justify-content: center;
+        order: 0;
+    }
+    .calidad-container {
+        order: 1;
+        padding: 20px 50px;
+    }
+    .calidad-imges img {
+        width: 70%;
+    }
+    .calidad-info {
+        text-align: center;
+    }
+    .buttons-container {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,35 @@
+.certigallery {
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certigallery-title {
+    color: var(--verde_oscuro);
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.container-certigallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.certigallery .container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img img {
+    width: 150px;
+}
