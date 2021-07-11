@@ -156,4 +156,8 @@
     .youtube{
         height: 250px;
     }
+
+    .gallery{
+        margin: 20px auto;
+    }
 }

@@ -248,16 +248,12 @@ var rotar = new Swiper(".cambiar__logos", {
 
     breakpoints: {
         320: {
-            slidesPerView: 1
-        },
-
-        599: {
             slidesPerView: 2
         },
 
-        768: {
+        649: {
             slidesPerView: 3
-        }
+        },
     }
 
 });

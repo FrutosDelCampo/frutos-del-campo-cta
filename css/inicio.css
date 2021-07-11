@@ -107,10 +107,14 @@
     .portada__i img{
         max-width: 70%;
     }
-
+ 
     .inicio__info{
     margin: auto;
     margin-top: 20px;
     }
 
+}
+
+@media (max-width:580px) {
+    
 }

@@ -156,3 +156,15 @@
     }
 
 }
+
+@media (max-width:580px) {
+    
+    .quienes-somos-button{
+        display: none ;
+    }
+
+    .quienes-somos-container {
+        padding: 20px;
+    }
+
+}
