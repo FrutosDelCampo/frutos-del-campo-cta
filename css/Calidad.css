@@ -49,10 +49,11 @@
 .calidad-info h2 {
     font-size: 45px;
     color: var(--verde_oscuro);
-    line-height: 80px;
+    line-height: 45px;
 }
 
 .calidad-info p {
+    margin-top: 20px;
     font-size: 15px;
 }
 
