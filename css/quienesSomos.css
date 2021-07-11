@@ -164,7 +164,11 @@
     }
 
     .quienes-somos-container {
-        padding: 20px;
+        padding: 25px
+    }
+
+    .quienes-somos-info{
+        padding: 0;
     }
 
 }

@@ -138,3 +138,19 @@
         align-items: center;
     }
 }
+
+@media (max-width:580px) {
+    
+    .certificate__container{
+        padding: 20px;
+    }
+
+    .certificate-info{
+        padding: 0 5px;
+    }
+
+    .certificate-info h4{
+        line-height: 25px;
+    }
+
+}

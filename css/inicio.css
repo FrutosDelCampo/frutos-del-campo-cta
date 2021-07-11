@@ -117,4 +117,12 @@
 
 @media (max-width:580px) {
     
+    .info{
+        padding: 20px;
+    }
+
+    .info p{
+        padding: 5px;
+    }
+
 }

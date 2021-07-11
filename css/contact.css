@@ -194,3 +194,11 @@
     }
 
 }
+
+@media (max-width:625px) {
+
+    .redes__sociales{
+        display: none;
+    }
+
+}
