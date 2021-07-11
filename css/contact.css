@@ -128,9 +128,33 @@
     color: rgb(255, 255, 255);
 }
 
+.info__contact{
+    display: flex;
+    flex-direction: column;
+}
+
 
 @media (max-width:895px) {
     .grid-container{
         grid-template-columns: 100%;
     }
+
+    .info__contact{
+        justify-content: center;
+    }
+
+    .right-container{
+        order: 0;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    } 
+
+    .buttons-container{
+        grid-template-columns: 100%;
+    }
+    
+    .left-container{
+        order: 1;
+    }
+
 }
