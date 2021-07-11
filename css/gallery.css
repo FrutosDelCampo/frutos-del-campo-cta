@@ -124,11 +124,6 @@
     height: 100%;
 }
 
-.youtube{
-    width: 560px;
-    height: 315px;
-
-}
 
 @media (max-width:895px){
     .gallery{

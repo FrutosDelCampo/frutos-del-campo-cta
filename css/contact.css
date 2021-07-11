@@ -71,7 +71,6 @@
 }
 
 .footer {
-    height: 70px;
     grid-column: span 1;
 }
 
@@ -141,20 +140,32 @@
 
     .info__contact{
         justify-content: center;
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+
+    .buttons-container img{
+        padding: 0;
+        margin: 0;
+        width: 75%;
     }
 
     .right-container{
         order: 0;
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
     } 
 
     .buttons-container{
         grid-template-columns: 100%;
+        align-items: center;
+        text-align: center;
     }
     
     .left-container{
         order: 1;
+        padding: 20px;
     }
 
 }
