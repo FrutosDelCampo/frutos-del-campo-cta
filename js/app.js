@@ -21,29 +21,29 @@ const app = new Vue({
 
         texts: [{
                 title: "¿Quiénes somos?",
-                paragraph: "Frutos del Campo, es una cooperativa de trabajo asociado, constituida en el año 2018 en el municipio de Villavicencio, Departamento del Meta (Colombia). Formada por un grupo de agricultores e ingenieros con más de 15 años de experiencia demostrable en la siembra distribución y comercialización de frutas a nivel nacional e internacional.",
+                paragraph: "Frutos  Del Campo, es una Cooperativa de Trabajo Asociado. Especializada en la producción de Papaya de la más alta calidad, constituida en el año 2018 en la ciudad de Villavicencio Departamento del Meta Colombia, formada por un grupo de agricultores e ingenieros, con más de 15 años de experiencia en la siembra, producción, distribución y comercialización de papaya a nivel nacional e internacional.",
             },
             {
                 title: "Misión",
-                paragraph: "Frutos del Campo  dirige sus esfuerzos a comercializar  internacionalmente frutas y vegetales en fresco desde Colombia, para satisfacer las necesidades de consumidores y apoyando a los Productores agrícolas en la comercialización y tecnificación de cultivos.",
+                paragraph: "1) Que todos nuestros cultivos sea amigables con el medio ambiente. 2) Implementar la más alta tecnología en nuestros Cultivos y Planta Empacadora. 3) Ofrecer el mejor producto a nuestros clientes. 4) Mantener un ambiente de trabajo y un modelo de vida saludable para el ser humano, manteniendo una altísima responsabilidad social en el desarrollo de nuestras actividades.",
             },
             {
                 title: "Visión",
-                paragraph: "Para el 2023 ser una cooperativa líder en producción, transformación, distribución de frutas y verduras a nivel mundial mediante nuevos desarrollos tecnológicos, una cultura innovadora comprometida con la excelencia, la sostenibilidad  y respeto por el medio ambiente.",
+                paragraph: "Ser reconocidos a nivel mundial como la mejor empresa productora, distribuidora y comercializadora de papaya y ente integrador de los productores de Papaya en Colombia, enfocándolos en la economía a escala, prestándoles asistencia técnica y capacitación para sus colaboradores.",
             },
         ],
 
         texts2: [{
                 title: "Planta empacadora",
-                paragraph: "Frutos del Campo, es una cooperativa de trabajo asociado, constituida en el año 2018 en el municipio de Villavicencio, Departamento del Meta (Colombia). Formada por un grupo de agricultores e ingenieros con más de 15 años de experiencia demostrable en la siembra distribución y comercialización de frutas a nivel nacional e internacional.",
+                paragraph: "Certificada por el ICA con Código No EMP 500016, Capacidad de empaque de 2 contenedores diarios, (40.800 Kilos), donde manejamos los más altos estándares de calidad, Bioseguridad e inocuidad del producto.",
             },
             {
                 title: "Cultivo",
-                paragraph: "Frutos del Campo  dirige sus esfuerzos a comercializar  internacionalmente frutas y vegetales en fresco desde Colombia, para satisfacer las necesidades de consumidores y apoyando a los Productores agrícolas en la comercialización y tecnificación de cultivos.",
+                paragraph: "Certificado por el ICA con código N 500017, Único en el país con sistema eficiente de fertirriego y emplasticado, trabajamos con agricultura de precisión, Buenas Practicas Agricolas por eso nuestros cultivos son amigables con el medio ambiente y 100% sostenibles.",
             },
             {
                 title: "Calidad",
-                paragraph: "En Frutos del Campo estamos comprometidos como equipo con la Calidad Integral en: El manejo y la producción de nuestros proveedores. Los procesos de Cosecha, Pos cosecha, Logística y Suministros. Los empaques, presentaciones y la variedad de las especies a exportar.",
+                paragraph: "En Frutos del Campo estamos comprometidos con la calidad, ya que trabajamos nuestros cultivos con tecnología, siendo la empresa líder en innovación, por esa razón nuestros procesos operativos van enfocados a la agricultura limpia, a la inocuidad de nuestros productos, y al cuidado del medio ambiente, siendo nuestros cultivos totalmente sostenibles.",
             },
         ],
 
@@ -80,7 +80,7 @@ const app = new Vue({
                 paragraph: " Titulo 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id fuga alias pariatur! Ullam fugiat ea, dolores quia odio enim mollitia asperiores laborum fugit velit quisquam eligendi, unde aliquam. Odio?",
                 /* link: "https://www.youtube.com/watch?v=OwqeTKImq-0", */
             },
-        ], 
+        ],
         swiperImagenes: null
 
     },
