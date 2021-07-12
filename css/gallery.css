@@ -126,7 +126,7 @@
 
 .youtube{
     width: 100%;
-    height: 350px;
+    height: 300px;
 }
 
 @media (max-width:895px){
@@ -162,15 +162,35 @@
     }
 
     .next{
-        padding: 10px;
+        padding-left: 10px;
     }
 
     .prev{
-        padding: 10px;
+        padding-right: 10px;
     }
+
+    
 
 }
 
 @media (max-width:425px){
+
+    .info-gallery{
+        order: 0;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .youtube{
+        height: 200px;
+    }
+
+    .container-img img{
+        width: 75px;
+    }
+
+    .gallery{
+        margin: 0 auto
+    }
 
 }

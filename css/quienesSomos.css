@@ -147,6 +147,10 @@
         align-items: center;
     }
 
+    .quienes-somos-info a{
+        margin: 10px;
+    }
+
     .quienes-somos-container{
         padding: 20px 50px;
     }

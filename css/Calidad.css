@@ -118,6 +118,11 @@
     .calidad-info {
         text-align: center;
     }
+
+    .calidad-info a{
+        margin: 10px;
+    }
+
     .buttons-container {
         justify-content: center;
     }

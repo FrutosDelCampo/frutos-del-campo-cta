@@ -59,9 +59,6 @@
 
 
 @media (max-width:1025px){
-    .inicio{
-        margin-top: 10px;
-    }
 
     .info h1{
         font-size: 50px;
@@ -100,6 +97,7 @@
 
     .portada__i{
         order: 0;
+        padding-top: 0;
         display: flex;
         justify-content: center;
     }

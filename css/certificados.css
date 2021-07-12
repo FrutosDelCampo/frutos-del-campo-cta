@@ -154,3 +154,14 @@
     }
 
 }
+
+@media (max-width:580px) {
+
+    .certificate-info h2{
+        font-size: 45px;
+    }
+
+}
+
+
+
