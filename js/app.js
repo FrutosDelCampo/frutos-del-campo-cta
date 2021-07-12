@@ -250,6 +250,7 @@ var rotar = new Swiper(".cambiar__logos", {
             slidesPerView: 1
         },
 
+
         649: {
             slidesPerView: 3
         },
