@@ -54,13 +54,11 @@ const app = new Vue({
             },
             {
                 title: "No. 500016",
-                paragraph: "Registro 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempore nihil unde sed blanditiis consequatur incidunt pariatur? Consectetur reiciendis odit tempora quidem! Aperiam saepe hic voluptas sit necessitatibus, debitis fugiat.",
-                file: "./Files/RegistroNo500016.pdf",
+                paragraph: "Se otorga el registro como planta empacadora de vegetales para la exportación en fresco a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
             },
             {
                 title: "No. 500017",
-                paragraph: "Registro 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempore nihil unde sed blanditiis consequatur incidunt pariatur? Consectetur reiciendis odit tempora quidem! Aperiam saepe hic voluptas sit necessitatibus, debitis fugiat.",
-                file: "./Files/RegistroNo500017.pdf",
+                paragraph: "Se otorga el registro como exportador de vegetales frescos a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
             },
 
         ],
