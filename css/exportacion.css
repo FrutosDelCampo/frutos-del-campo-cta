@@ -93,3 +93,15 @@
 
 
 }
+
+@media (max-width:580px){
+
+    .exportacion-info a{
+        padding: 10px 25px;
+    }
+
+    .exportacion-info{
+        padding: 20px;
+    }
+
+}

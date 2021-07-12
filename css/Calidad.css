@@ -122,3 +122,16 @@
         justify-content: center;
     }
 }
+
+
+@media (max-width:580px) {
+    
+    .calidad-button{
+        display: none;
+    }
+
+    .calidad-container{
+        padding: 0;
+    }
+
+}

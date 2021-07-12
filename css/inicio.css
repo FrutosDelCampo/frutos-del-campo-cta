@@ -65,7 +65,7 @@
 
     .info h1{
         font-size: 50px;
-        line-height: 45px;
+        line-height: 47px;
     }
 
 }
@@ -107,10 +107,22 @@
     .portada__i img{
         max-width: 70%;
     }
-
+ 
     .inicio__info{
     margin: auto;
     margin-top: 20px;
+    }
+
+}
+
+@media (max-width:580px) {
+    
+    .info{
+        padding: 20px;
+    }
+
+    .info p{
+        padding: 5px;
     }
 
 }
