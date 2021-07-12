@@ -164,11 +164,20 @@
     }
 
     .quienes-somos-container {
-        padding: 25px
+        padding: 20px
     }
 
     .quienes-somos-info{
         padding: 0;
     }
+
+}
+
+
+@media (max-width:425px) {
+    
+.quienes-somos img {
+    max-width: 90%;
+}
 
 }

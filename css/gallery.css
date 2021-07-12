@@ -160,4 +160,17 @@
     .gallery{
         margin: 20px auto;
     }
+
+    .next{
+        padding: 10px;
+    }
+
+    .prev{
+        padding: 10px;
+    }
+
+}
+
+@media (max-width:425px){
+
 }
