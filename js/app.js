@@ -55,28 +55,27 @@ const app = new Vue({
             {
                 title: "No. 500016",
                 paragraph: "Se otorga el registro como planta empacadora de vegetales para la exportación en fresco a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
+                file: "./Files/RegistroNo500016.pdf",
             },
             {
                 title: "No. 500017",
                 paragraph: "Se otorga el registro como exportador de vegetales frescos a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
+                file: "./Files/RegistroNo500017.pdf",
             },
 
         ],
 
         texts4: [{
-                title: "Titulo 1",
-                paragraph: "Titulo 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id fuga alias pariatur! Ullam fugiat ea, dolores quia odio enim mollitia asperiores laborum fugit velit quisquam eligendi, unde aliquam. Odio?",
-                /* link: "https://www.youtube.com/watch?v=vvvxUJDrv0c", */
+                title: "Cultivo",
+                paragraph: "Contamos con una siembra eficiente de fertirriego, emplasticado, 100% sostenible y desempeñando una labor amigable con el medio ambiente",
             },
             {
-                title: "Titulo 2",
+                title: "Planta",
                 paragraph: "Titulo2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id fuga alias pariatur! Ullam fugiat ea, dolores quia odio enim mollitia asperiores laborum fugit velit quisquam eligendi, unde aliquam. Odio?",
-                /* link: "https://www.youtube.com/watch?v=vvvxUJDrv0c", */
             },
             {
-                title: "Titulo 3",
+                title: "Exportación",
                 paragraph: " Titulo 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id fuga alias pariatur! Ullam fugiat ea, dolores quia odio enim mollitia asperiores laborum fugit velit quisquam eligendi, unde aliquam. Odio?",
-                /* link: "https://www.youtube.com/watch?v=OwqeTKImq-0", */
             },
         ],
         swiperImagenes: null
