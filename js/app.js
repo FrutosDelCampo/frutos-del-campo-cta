@@ -15,14 +15,14 @@ const app = new Vue({
             "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
         ],
         imagen1: [
-            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png",
-            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624923597/img/papaya-01_xzi3rs.png",
-            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png",
+            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626115705/img/quienes_somoss-01_yxeuhz.png",
+            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626117056/img/misionn-01_ylmfb4.png",
+            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626117056/img/vision-01_cgtiwt.png",
         ],
         imagen2: [
-            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png",
-            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624923597/img/papaya-01_xzi3rs.png",
-            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png",
+            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626117055/img/planta-01_wotv9w.png",
+            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626117057/img/cultivboo-01_hwtcxw.png",
+            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626117054/img/calidad-01_d1dzrm.png",
         ],
 
         texts: [{
