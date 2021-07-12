@@ -24,7 +24,7 @@ html {
         background-size: cover;
     } */
 
-body {
+#app {
     background-image: url("https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624897517/img/fondo_dtigpv.svg");
     background-position: center;
     background-size: 120vw 120vh;
@@ -55,8 +55,29 @@ body {
     border-radius: 20px;
 }
 
-@media (max-width:1270px) {
-    body{
-        
+.cargando{
+    background-color: rgb(255, 255, 255); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 100000;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.cargando img{
+    transition: all 3s;
+    height: 100px;
+}
+
+@media (max-width:750px) {
+    #app{
+        background: none;
     }
+
+
 }
