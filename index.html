@@ -243,8 +243,9 @@
                     </div>
                 </div>
                 <div class="calidad-imges">
-                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png"
-                        alt="Portada" />
+                    <transition name="fade" mode="out-in">
+                    <img :src="imagen2[posicionActual2]" alt="Portada" :key="posicionActual2" />
+                    </transition>
                 </div>
             </section>
 
