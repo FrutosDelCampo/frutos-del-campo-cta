@@ -49,17 +49,17 @@ const app = new Vue({
 
         certificadoDescargas: [{
                 title: "No. 505730167",
-                paragraph: "Se otorga el presente registro como predio productor de las siguientes especies vegetales para la exportación en fresco: Papaya (Carica Papaya), en un área de ocho (8) hectáreas y Plátano (Musa Paradisiaca), con siete (7) hectáreas.",
+                paragraph: "Registro como predio productor de las siguientes especies vegetales para la exportación en fresco: Papaya (Carica Papaya), en un área de ocho (8) hectáreas y Plátano (Musa Paradisiaca), con siete (7) hectáreas.",
                 file: "./Files/RegistroNo505730167.pdf",
             },
             {
                 title: "No. 500016",
-                paragraph: "Se otorga el registro como planta empacadora de vegetales para la exportación en fresco a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
+                paragraph: "Registro como planta empacadora de vegetales para la exportación en fresco a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
                 file: "./Files/RegistroNo500016.pdf",
             },
             {
                 title: "No. 500017",
-                paragraph: "Se otorga el registro como exportador de vegetales frescos a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
+                paragraph: "Registro como exportador de vegetales frescos a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
                 file: "./Files/RegistroNo500017.pdf",
             },
 
@@ -67,15 +67,15 @@ const app = new Vue({
 
         texts4: [{
                 title: "Cultivo",
-                paragraph: "Contamos con una siembra eficiente de fertirriego, emplasticado, 100% sostenible y desempeñando una labor amigable con el medio ambiente",
+                paragraph: "Contamos con una siembra eficiente de fertirriego, emplasticado, 100% sostenible y desempeñando una labor amigable con el medio ambiente.",
             },
             {
                 title: "Planta",
-                paragraph: "Titulo2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id fuga alias pariatur! Ullam fugiat ea, dolores quia odio enim mollitia asperiores laborum fugit velit quisquam eligendi, unde aliquam. Odio?",
+                paragraph: "Poseemos una planta empacadora con suficiencia de 40.800kilos donde manejamos estandares de calidad y bioseguridad tanto al producto como para el trabajador.",
             },
             {
                 title: "Exportación",
-                paragraph: " Titulo 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id fuga alias pariatur! Ullam fugiat ea, dolores quia odio enim mollitia asperiores laborum fugit velit quisquam eligendi, unde aliquam. Odio?",
+                paragraph: "Poseeemos infraestructura para exportación con altos estándares de calidad, bioseguridad e inocuidad de la Papaya Tainung.",
             },
         ],
         swiperImagenes: null
