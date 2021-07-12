@@ -10,6 +10,7 @@ const app = new Vue({
         isOpen: true,
         cambiomodal: false,
         idioma: false,
+        cargando:true,
         imagen: [
             "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
         ],
@@ -83,6 +84,9 @@ const app = new Vue({
     },
 
     mounted() {
+
+        this.cargando = false
+
         this.swiperImagenes = new Swiper(".imagenes", {
             loop: true,
             navigation: {
@@ -219,7 +223,7 @@ const app = new Vue({
             this.idioma = !this.idioma
         }
 
-        
+
     },
 
     computed: {

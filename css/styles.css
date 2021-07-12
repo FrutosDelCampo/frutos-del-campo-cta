@@ -55,11 +55,28 @@ html {
     border-radius: 20px;
 }
 
-@media (max-width:1270px) {
+.cargando{
+    background-color: rgb(255, 255, 255); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 100000;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.cargando img{
+    transition: all 3s;
+    height: 100px;
+}
+
+@media (max-width:750px) {
     #app{
-        background-position: top;
-        background-image: url("https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626108875/img/fondo_vertical_k3m25q.svg");
-        background-size: 100vw auto;
+        background: none;
     }
 
 

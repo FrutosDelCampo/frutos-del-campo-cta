@@ -125,6 +125,12 @@
 
 }
 
+@media (max-width:425px) {
+    .portada__i img{
+        max-width: 90%;
+    }
+}
+
 @media (max-width: 375px){
 
     .info a{

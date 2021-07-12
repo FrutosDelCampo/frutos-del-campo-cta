@@ -141,6 +141,12 @@
 
 }
 
+@media (max-width:425px) {
+    .calidad-imges img{
+        width: 90%;
+    }
+}
+
 @media (max-width: 375px){
 
     .calidad-info h2{
