@@ -124,3 +124,11 @@
     }
 
 }
+
+@media (max-width: 375px){
+
+    .info a{
+        padding: 10px 50px;
+    }
+
+}

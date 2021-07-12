@@ -140,3 +140,17 @@
     }
 
 }
+
+@media (max-width: 375px){
+
+    .calidad-info h2{
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .calidad-info a{
+        margin: 5px;
+        padding: 10px 10px;
+    }
+    
+    }

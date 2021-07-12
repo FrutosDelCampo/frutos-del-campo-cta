@@ -169,7 +169,7 @@
         padding-right: 10px;
     }
 
-    
+
 
 }
 
@@ -193,4 +193,10 @@
         margin: 0 auto
     }
 
+}
+
+@media(max-width: 375px){
+   .container-img img{
+       width: 65px;
+   }
 }
