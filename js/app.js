@@ -219,6 +219,7 @@ const app = new Vue({
             this.idioma = !this.idioma
         }
 
+        
     },
 
     computed: {
