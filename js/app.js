@@ -49,7 +49,7 @@ const app = new Vue({
 
         certificadoDescargas: [{
                 title: "No. 505730167",
-                paragraph: "Registro 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempore nihil unde sed blanditiis consequatur incidunt pariatur? Consectetur reiciendis odit tempora quidem! Aperiam saepe hic voluptas sit necessitatibus, debitis fugiat.",
+                paragraph: "Se otorga el presente registro como predio productor de las siguientes especies vegetales para la exportación en fresco: Papaya (Carica Papaya), en un área de ocho (8) hectáreas y Plátano (Musa Paradisiaca), con siete (7) hectáreas.",
                 file: "./Files/RegistroNo505730167.pdf",
             },
             {
