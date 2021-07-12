@@ -25,7 +25,7 @@ const app = new Vue({
             },
             {
                 title: "Misión",
-                paragraph: "1) Que todos nuestros cultivos sea amigables con el medio ambiente. 2) Implementar la más alta tecnología en nuestros Cultivos y Planta Empacadora. 3) Ofrecer el mejor producto a nuestros clientes. 4) Mantener un ambiente de trabajo y un modelo de vida saludable para el ser humano, manteniendo una altísima responsabilidad social en el desarrollo de nuestras actividades.",
+                paragraph: "1) Que todos nuestros cultivos sean amigables con el medio ambiente. 2) Implementar la más alta tecnología en nuestros Cultivos y Planta Empacadora. 3) Ofrecer el mejor producto a nuestros clientes. 4) Mantener un ambiente de trabajo y un modelo de vida saludable para el ser humano, manteniendo una altísima responsabilidad social en el desarrollo de nuestras actividades.",
             },
             {
                 title: "Visión",
@@ -75,7 +75,7 @@ const app = new Vue({
             },
             {
                 title: "Exportación",
-                paragraph: "Poseeemos infraestructura para exportación con altos estándares de calidad, bioseguridad e inocuidad de la Papaya Tainung.",
+                paragraph: "Poseemos infraestructura para exportación con altos estándares de calidad, bioseguridad e inocuidad de la Papaya Tainung.",
             },
         ],
         swiperImagenes: null
