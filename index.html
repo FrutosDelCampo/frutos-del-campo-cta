@@ -89,13 +89,13 @@
                 <a href="#expor" v-on:click="toggleCollapsed">
                     <li>Exportación</li>
                 </a>
-                <a href="https://swiperjs.com/demos" v-on:click="toggleCollapsed">
+                <a href="#certifi" v-on:click="toggleCollapsed">
                     <li>Certificados</li>
                 </a>
-                <a href="https://swiperjs.com/demos" v-on:click="toggleCollapsed">
+                <a href="#galeria" v-on:click="toggleCollapsed">
                     <li>Galería</li>
                 </a>
-                <a href="https://swiperjs.com/demos" v-on:click="toggleCollapsed">
+                <a href="#contacto" v-on:click="toggleCollapsed">
                     <li>Contacto</li>
                 </a>
             </ul>
@@ -299,7 +299,7 @@
                         </transition>
                     </div>
                 </div>
-                <div class="certificate-imges">
+                <div class="certificate-imges"  id="certifi">
                     <div class="certificate-button" v-on:click="atras3">
                         <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -347,7 +347,7 @@
 
 
 
-            <section class="gallery">
+            <section class="gallery" id="galeria">
                 <div class="gallery-container">
                     <div class="prev button-gallery" v-on:click="atras4"  style="outline:none">
                         <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -392,7 +392,7 @@
             </section>
 
 
-            <section class="contact-container" id="contact">
+            <section class="contact-container" id="contacto">
                 <div class="grid-container">
                     <div class="left-container">
                         <iframe
