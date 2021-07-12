@@ -121,6 +121,23 @@ header{
 }
 
 
+.english{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 695px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-shadow:  20px 20px 60px #bebebe,
+    20px -20px 60px #ffffff;
+}
+
+.nada{
+    display: none;
+}
+
+
 
 @media (max-width:1025px){
     .nav{

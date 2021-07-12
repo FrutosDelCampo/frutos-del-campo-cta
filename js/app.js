@@ -9,7 +9,7 @@ const app = new Vue({
         isCollapsed: true,
         isOpen: true,
         cambiomodal: false,
-
+        idioma: false,
         imagen: [
             "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
         ],
@@ -213,6 +213,12 @@ const app = new Vue({
         toggleModal: function() {
             this.cambiomodal = !this.cambiomodal
         },
+
+
+        cambiarIdioma(){
+            this.idioma = !this.idioma
+        }
+
     },
 
     computed: {
@@ -228,6 +234,14 @@ const app = new Vue({
                 return "modalAbierta"
             }
             return "modalCerrada"
+        },
+
+
+        lenguaje(){
+            if (this.idioma){
+                return "english"
+            } 
+            return "nada"
         }
 
 
