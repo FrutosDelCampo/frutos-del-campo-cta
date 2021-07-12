@@ -105,3 +105,9 @@
     }
 
 }
+
+@media (max-width:375px) {
+    .exportacion-info h2{
+        font-size: 45px;
+    }
+}

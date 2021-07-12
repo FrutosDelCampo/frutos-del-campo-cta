@@ -210,4 +210,18 @@
         line-height: 1;
     }
 
+    .right-container{
+    padding: 0;
+    } 
+
+}
+
+@media (max-width:375px) {
+    .footer p{
+        font-size: 12px;
+    }
+
+    .footer__info a{
+        font-size: 12px;
+    }
 }

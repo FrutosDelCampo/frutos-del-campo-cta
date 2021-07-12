@@ -179,8 +179,21 @@ header{
         margin-bottom: 10px;
         color: var(--verde_oscuro);
     }
+}
 
+@media (max-width: 375px){
 
+    .orgullo{
+        margin-left: 10px;
+    }
+
+    .orgullo p{
+        font-size: 12px;
+    }
+
+    .orgullo strong{
+        font-size: 20px;
+    }
 
 }
 

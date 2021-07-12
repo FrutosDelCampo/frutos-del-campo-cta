@@ -185,3 +185,12 @@
 }
 
 }
+
+@media (max-width: 375px){
+    .quienes-somos-info a {
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 10px;
+    }
+}

@@ -54,3 +54,9 @@ body {
     background-color: #fff;
     border-radius: 20px;
 }
+
+@media (max-width:1270px) {
+    body{
+        
+    }
+}

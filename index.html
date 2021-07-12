@@ -220,8 +220,7 @@
                             </div>
                         </transition>
                         <div class="buttons-container">
-                            <a v-on:click="mostrarTexto2(0)" style="cursor: pointer; " :class="getClase2(0)">Planta
-                                empacadora</a>
+                            <a v-on:click="mostrarTexto2(0)" style="cursor: pointer; " :class="getClase2(0)">Planta</a>
                             <a v-on:click="mostrarTexto2(1)" style="cursor: pointer;" :class="getClase2(1)">Cultivo</a>
                             <a v-on:click="mostrarTexto2(2)" style="cursor: pointer;" :class="getClase2(2)">Calidad</a>
                         </div>
@@ -268,13 +267,6 @@
 
             <section class="certificate">
                 <div class="certificate__container">
-                    <div class="certificate-button" v-on:click="atras3">
-                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M15 19l-7-7 7-7"></path>
-                            </svg></button>
-                    </div>
                     <div class="certificate-info">
                         <h3>Certificados</h3>
                         <h2><strong>Registro ICA</strong></h2>
@@ -296,18 +288,26 @@
                             </div>
                         </transition>
                     </div>
-                    <div class="certificate-button" v-on:click="adelante3">
-                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
-                                </path>
-                            </svg></button>
-                    </div>
                 </div>
                 <div class="certificate-imges">
+                    <div class="certificate-button" v-on:click="atras3">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path>
+                            </svg></button>
+                    </div>
                     <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625800272/img/Instituto-Colombiano-Agropecuario-removebg-preview_bcbacm.png"
                         alt="Portada" />
+                        <div class="certificate-button" v-on:click="adelante3">
+                            <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                    </path>
+                                </svg></button>
+                        </div>
                 </div>
+                
             </section>
 
 
@@ -356,14 +356,14 @@
                             </div>
 
                             <div class="swiper-slide video-item" v-on:click="toggleModal">
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ss0Un7fa-Mw"
+                                <iframe class="youtube" src="https://www.youtube.com/embed/ss0Un7fa-Mw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
 
                             <div class="swiper-slide video-item" v-on:click="toggleModal">
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ss0Un7fa-Mw"
+                                <iframe class="youtube" src="https://www.youtube.com/embed/ss0Un7fa-Mw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
