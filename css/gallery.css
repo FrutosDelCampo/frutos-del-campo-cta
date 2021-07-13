@@ -138,6 +138,7 @@
         order: 0;
         padding: 20px 50px;
         text-align: center;
+        text-align-last: center;
     }
     .gallery-container {
         order: 1;
@@ -168,6 +169,7 @@
         order: 0;
         padding: 20px 0px;
         text-align: center;
+        text-align-last: center;
     }
     .youtube {
         height: 200px;

@@ -45,8 +45,6 @@
     align-items: flex-end;
     justify-content: center;
     padding: 20px;
-    text-align: justify;
-    text-align-last: end;
 }
 
 .quienes-somos-info h2 {
@@ -67,6 +65,8 @@
 .quienes-somos-info p {
     margin-top: 20px;
     font-size: 15px;
+    text-align: justify;
+    text-align-last: end;
 }
 
 .quienes-somos-info .buttons-container {
@@ -149,6 +149,10 @@
     .quienes-somos-info {
         text-align: center;
         align-items: center;
+    }
+    .quienes-somos-info p {
+        text-align: center;
+        text-align-last: center;
     }
     .quienes-somos-info a {
         margin: 10px;
