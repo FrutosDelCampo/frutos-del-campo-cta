@@ -10,7 +10,7 @@ const app = new Vue({
         isOpen: true,
         cambiomodal: false,
         idioma: false,
-        cargando:true,
+        cargando: true,
         imagen: [
             "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
         ],
@@ -73,7 +73,7 @@ const app = new Vue({
 
         texts4: [{
                 title: "Cultivo",
-                paragraph: "Contamos con una siembra eficiente de fertirriego, emplasticado, 100% sostenible y desempeñando una labor amigable con el medio ambiente.",
+                paragraph: "Certificado por el ICA con código N 500017, Único en el país con sistema eficiente de fertirriego y emplasticado, trabajamos con agricultura de precisión, Buenas Practicas Agricolas por eso nuestros cultivos son amigables con el medio ambiente y 100% sostenibles.",
             },
             {
                 title: "Planta",
@@ -224,7 +224,7 @@ const app = new Vue({
         },
 
 
-        cambiarIdioma(){
+        cambiarIdioma() {
             this.idioma = !this.idioma
         }
 
@@ -247,10 +247,10 @@ const app = new Vue({
         },
 
 
-        lenguaje(){
-            if (this.idioma){
+        lenguaje() {
+            if (this.idioma) {
                 return "english"
-            } 
+            }
             return "nada"
         }
 
