@@ -10,6 +10,7 @@
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
+    text-align: justify;
 }
 
 .calidad-button {
@@ -118,45 +119,36 @@
     .calidad-info {
         text-align: center;
     }
-
-    .calidad-info a{
+    .calidad-info a {
         margin: 10px;
     }
-
     .buttons-container {
         justify-content: center;
     }
 }
 
-
 @media (max-width:580px) {
-    
-    .calidad-button{
+    .calidad-button {
         display: none;
     }
-
-    .calidad-container{
+    .calidad-container {
         padding: 0;
     }
-
 }
 
 @media (max-width:425px) {
-    .calidad-imges img{
+    .calidad-imges img {
         width: 90%;
     }
 }
 
-@media (max-width: 375px){
-
-    .calidad-info h2{
+@media (max-width: 375px) {
+    .calidad-info h2 {
         font-size: 35px;
         line-height: 35px;
     }
-
-    .calidad-info a{
+    .calidad-info a {
         margin: 5px;
         padding: 10px 10px;
     }
-    
-    }
+}

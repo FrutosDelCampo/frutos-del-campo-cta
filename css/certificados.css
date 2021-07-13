@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    text-align: justify;
 }
 
 .certificate-info h2 {
@@ -141,30 +142,19 @@
 }
 
 @media (max-width:580px) {
-    
-    .certificate__container{
+    .certificate__container {
         padding: 20px;
     }
-
-    .certificate-info{
+    .certificate-info {
         padding: 0;
     }
-
-    .certificate-info h4{
+    .certificate-info h4 {
         line-height: 25px;
     }
-
 }
 
 @media (max-width:580px) {
-
-    .certificate-info h2{
+    .certificate-info h2 {
         font-size: 45px;
     }
-
 }
-
-
-
-
-

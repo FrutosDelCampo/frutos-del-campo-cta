@@ -27,7 +27,7 @@
     border: none;
     border-radius: 50%;
     background-color: var(--verde_claro);
-    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.30);
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.30);
 }
 
 .quienes-somos-button button:hover {
@@ -45,10 +45,11 @@
     align-items: flex-end;
     justify-content: center;
     padding: 20px;
-    text-align: right;
+    text-align: justify;
+    text-align-last: end;
 }
 
-.quienes-somos-info h2{
+.quienes-somos-info h2 {
     margin-top: -20px;
     font-weight: 400;
     font-size: 60px;
@@ -56,24 +57,24 @@
     color: var(--verde_oscuro);
 }
 
-.quienes-somos-info h3{
+.quienes-somos-info h3 {
     font-weight: 400;
     font-size: 45px;
     line-height: 45px;
     color: var(--verde_oscuro);
 }
 
-.quienes-somos-info p{    
+.quienes-somos-info p {
     margin-top: 20px;
     font-size: 15px;
 }
 
 .quienes-somos-info .buttons-container {
     display: flex;
-    margin-top:20px ;
+    margin-top: 20px;
 }
 
-.quienes-somos-info a{
+.quienes-somos-info a {
     margin-left: 20px;
     padding: 10px 15px;
     display: flex;
@@ -85,13 +86,12 @@
     border-radius: 10px;
     border: solid 1px var(--verde_claro);
     background-color: white;
-    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.30);
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.30);
     transition: all 500ms;
 }
 
 .quienes-somos-info a:hover {
     color: #fff;
-    
     background-color: var(--verde_claro);
 }
 
@@ -111,14 +111,14 @@
     max-width: 100%;
 }
 
-.botones__somos{
+.botones__somos {
     cursor: pointer
 }
 
-.quienes-somos-info a:visited{
+.quienes-somos-info a:visited {
     background-color: var(--verde_claro);
     transition: none;
-    color:#fff;
+    color: #fff;
 }
 
 .activado {
@@ -126,73 +126,63 @@
     color: #fff !important;
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
     transition: all 300ms
 }
-  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+
+.fade-enter,
+.fade-leave-to
+/* .fade-leave-active below version 2.1.8 */
+
+{
     opacity: 0;
 }
 
-
 @media (max-width:895px) {
-    
-    .quienes-somos{
+    .quienes-somos {
         grid-template-columns: 100%;
     }
-
-    .quienes-somos-imges{
+    .quienes-somos-imges {
         justify-content: center;
     }
-
-    .quienes-somos-info{
+    .quienes-somos-info {
         text-align: center;
         align-items: center;
     }
-
-    .quienes-somos-info a{
+    .quienes-somos-info a {
         margin: 10px;
     }
-
-    .quienes-somos-container{
+    .quienes-somos-container {
         padding: 20px 50px;
     }
-
     .quienes-somos img {
         max-width: 70%;
     }
-
 }
 
 @media (max-width:580px) {
-    
-    .quienes-somos-button{
-        display: none ;
+    .quienes-somos-button {
+        display: none;
     }
-
     .quienes-somos-container {
         padding: 20px
     }
-
-    .quienes-somos-info{
+    .quienes-somos-info {
         padding: 0;
     }
-
 }
-
 
 @media (max-width:425px) {
-    
-.quienes-somos img {
-    max-width: 90%;
-}
-
-}
-
-@media (max-width: 375px){
-    .quienes-somos-info a {
-    margin: 5px;
-    font-size: 13px;
-    padding: 10px 10px;
+    .quienes-somos img {
+        max-width: 90%;
     }
 }
 
+@media (max-width: 375px) {
+    .quienes-somos-info a {
+        margin: 5px;
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+}

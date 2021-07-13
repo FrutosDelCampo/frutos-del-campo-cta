@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 20px;
+    text-align: justify;
 }
 
 .certigallery .container-img {
@@ -39,5 +40,3 @@
         width: 100px;
     }
 }
-
-
