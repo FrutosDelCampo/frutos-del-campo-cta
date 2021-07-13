@@ -3,18 +3,14 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="description"
-        content="Frutas de la mejor calidad al mejor precio, estamos en más de 5 paises y orgullosamente Colombianos" />
+    <meta name="description" content="Frutas de la mejor calidad al mejor precio, estamos en más de 5 paises y orgullosamente Colombianos" />
     <meta name="robots" content="index, follow" />
-    <link rel="shortcut icon"
-        href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624395247/img/logo_befaif.png">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624395247/img/logo_befaif.png">
     <title>Frutos del campo CTA</title>
     <meta name="viewport" content="width=device-width, inictial-scale=1.0" />
     <!-- Fuentes  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
 
 
     <!-- Hojas de estilos -->
@@ -38,14 +34,13 @@
 
 <body>
     <div id="app">
-            <div class="cargando"  v-if="cargando">
-                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626113172/img/logo-04_wo7ocp.png" alt="loading" >
-            </div>
+        <div class="cargando" v-if="cargando">
+            <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626113172/img/logo-04_wo7ocp.png" alt="loading">
+        </div>
         <header id="head">
             <a href="#" class="izquierda">
                 <div class="logo">
-                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626112234/img/logo-02_bibolg.png"
-                        alt="Logo">
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626112234/img/logo-02_bibolg.png" alt="Logo">
                 </div>
                 <div class="orgullo">
                     <p>Orgullosamente <br><strong>Colombianos</strong></p>
@@ -55,8 +50,7 @@
 
             <ul :class="menu">
                 <div class="salir" v-on:click="toggleCollapsed">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M11 17l-5-5m0 0l5-5m-5 5h12" />
                     </svg>
@@ -65,18 +59,16 @@
                 <p class="op">Cambia tu idioma</p>
                 <div class="idioma" v-on:click="cambiarIdioma">
                     <strong>ES</strong>
-                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/colombia_muoy2a.png"
-                        alt="español" class="bandera">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/colombia_muoy2a.png" alt="español" class="bandera">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
-                        <a href="https://fruitsofthefield.com">
-                            <div :class="lenguaje">
-                                <strong>EN</strong>
-                                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/estados_u_n5jx4g.png" alt="Ingles" class="bandera">
-                            </div>
-                        </a>
+                    <a href="https://fruitsofthefield.com">
+                        <div :class="lenguaje">
+                            <strong>EN</strong>
+                            <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/estados_u_n5jx4g.png" alt="Ingles" class="bandera">
+                        </div>
+                    </a>
                 </div>
 
 
@@ -100,8 +92,7 @@
                 </a>
             </ul>
             <div class="menu__movil" v-on:click="toggleCollapsed">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </div>
@@ -116,13 +107,11 @@
                         <br>
                         <strong>del campo CTA</strong>
                     </h1>
-                    <p>Empresa dedicada a la producción de Papaya tipo de exportación de alta calidad desde el campo
-                        colombiano. Con amplia trayectoria en siembra, producción, distribución y comercialización del
-                        mismo.</p>
+                    <p>Empresa dedicada a la producción de Papaya tipo de exportación de alta calidad desde el campo colombiano. Con amplia trayectoria en siembra, producción, distribución y comercialización del mismo.
+                    </p>
                     <div class="inicio__info">
                         <a href="#contact" class="boton__info">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                             </svg> Contáctanos
@@ -130,8 +119,7 @@
                     </div>
                 </div>
                 <div class="portada__i">
-                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png"
-                        alt="Portada" />
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624396770/img/portada_web_2_lw3pus.png" alt="Portada" />
                 </div>
             </section>
 
@@ -143,26 +131,22 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide tamano">
                                 <a href="#">
-                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625958157/img/fresh_t_nnztke.png"
-                                        class="logo__partners">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625958157/img/fresh_t_nnztke.png" class="logo__partners">
                                 </a>
                             </div>
                             <div class="swiper-slide tamano">
                                 <a href="#">
-                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625958157/img/86822063_114051826836146_4414394436532830208_n-removebg-preview_f7utjq.png"
-                                        class="logo__partners">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625958157/img/86822063_114051826836146_4414394436532830208_n-removebg-preview_f7utjq.png" class="logo__partners">
                                 </a>
                             </div>
                             <div class="swiper-slide tamano">
                                 <a href="#">
-                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625958224/img/LOGO-02_pd9xrc.png"
-                                        class="logo__partners">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625958224/img/LOGO-02_pd9xrc.png" class="logo__partners">
                                 </a>
                             </div>
                             <div class="swiper-slide tamano">
                                 <a href="#">
-                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625969110/img/tolis_thifo3.png"
-                                        class="logo__partners">
+                                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625969110/img/tolis_thifo3.png" class="logo__partners">
                                 </a>
                             </div>
                         </div>
@@ -244,7 +228,7 @@
                 </div>
                 <div class="calidad-imges">
                     <transition name="fade" mode="out-in">
-                    <img :src="imagen2[posicionActual2]" alt="Portada" :key="posicionActual2" />
+                        <img :src="imagen2[posicionActual2]" alt="Portada" :key="posicionActual2" />
                     </transition>
                 </div>
             </section>
@@ -252,18 +236,14 @@
 
             <section class="exportacion" id="expor">
                 <div class="exportacion-imges">
-                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624923597/img/papaya-01_xzi3rs.png"
-                        alt="Portada" />
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624923597/img/papaya-01_xzi3rs.png" alt="Portada" />
                 </div>
                 <div class="exportacion-info">
                     <h2>Exportación</h2>
                     <h4>Papaya Tainung</h4>
-                    <p>Fruta tropical conocida comúnmente como Papaya o lechosa, variedad Tainung, fruto carnoso de
-                        textura suave y alto contenido de agua, característico por su pulpa de color naranja intenso, su
-                        fresco y dulce sabor. </p>
+                    <p>Fruta tropical conocida comúnmente como Papaya o lechosa, variedad Tainung, fruto carnoso de textura suave y alto contenido de agua, característico por su pulpa de color naranja intenso, su fresco y dulce sabor. </p>
                     <div class="descargar">
-                        <a href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625954718/img/PapayaFichaTecnica_omzgpx.jpg"
-                            class="boton__info" target="bank">Descargar ficha técnica<svg class="w-6 h-6" fill="none"
+                        <a href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625954718/img/PapayaFichaTecnica_omzgpx.jpg" class="boton__info" target="bank">Descargar ficha técnica<svg class="w-6 h-6" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
@@ -282,8 +262,7 @@
                         <h2><strong>Registro ICA</strong></h2>
 
                         <transition name="fade" mode="out-in">
-                            <div v-for="(certificadoDescarga, index) in certificadoDescargas"
-                                v-if="posicionActual3 == index" :key="certificadoDescarga.title">
+                            <div v-for="(certificadoDescarga, index) in certificadoDescargas" v-if="posicionActual3 == index" :key="certificadoDescarga.title">
                                 <h4>{{ certificadoDescarga.title }}</h4>
                                 <p>{{ certificadoDescarga.paragraph }}</p>
                                 <div class="descargar-certificado">
@@ -299,7 +278,7 @@
                         </transition>
                     </div>
                 </div>
-                <div class="certificate-imges"  id="certifi">
+                <div class="certificate-imges" id="certifi">
                     <div class="certificate-button" v-on:click="atras3">
                         <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -307,17 +286,16 @@
                                     d="M15 19l-7-7 7-7"></path>
                             </svg></button>
                     </div>
-                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625800272/img/Instituto-Colombiano-Agropecuario-removebg-preview_bcbacm.png"
-                        alt="Portada" />
-                        <div class="certificate-button" v-on:click="adelante3">
-                            <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625800272/img/Instituto-Colombiano-Agropecuario-removebg-preview_bcbacm.png" alt="Portada" />
+                    <div class="certificate-button" v-on:click="adelante3">
+                        <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
                                     </path>
                                 </svg></button>
-                        </div>
+                    </div>
                 </div>
-                
+
             </section>
 
 
@@ -327,20 +305,16 @@
                 </div>
                 <div class="container-certigallery">
                     <div class="container-img">
-                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798500/img/logo-grasp-1024x427-1024x427_l8f5ji.png"
-                            alt="logo del certificado">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798500/img/logo-grasp-1024x427-1024x427_l8f5ji.png" alt="logo del certificado">
                     </div>
                     <div class="container-img">
-                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798476/img/rainforest-alliance-logo_z5lhco.png"
-                            alt="logo del certificado">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798476/img/rainforest-alliance-logo_z5lhco.png" alt="logo del certificado">
                     </div>
                     <div class="container-img">
-                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798471/img/Imagen1_qtqswq.png"
-                            alt="logo del certificado">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625798471/img/Imagen1_qtqswq.png" alt="logo del certificado">
                     </div>
                     <div class="container-img">
-                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625954673/img/BPA_e72fzp.jpg"
-                            alt="logo del certificado">
+                        <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625954673/img/BPA_e72fzp.jpg" alt="logo del certificado">
                     </div>
                 </div>
             </section>
@@ -349,7 +323,7 @@
 
             <section class="gallery" id="galeria">
                 <div class="gallery-container">
-                    <div class="prev button-gallery" v-on:click="atras4"  style="outline:none">
+                    <div class="prev button-gallery" v-on:click="atras4" style="outline:none">
                         <button><svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -359,15 +333,15 @@
                     <div class="swiper-container imagenes">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide video-item" v-on:click="toggleModal">
-                                <iframe class="youtube" src="https://www.youtube.com/embed/0Iy1gvTIyss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="youtube" src="https://youtu.be/JJwpypCDcrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
 
                             <div class="swiper-slide video-item" v-on:click="toggleModal">
-                                <iframe class="youtube" src="https://www.youtube.com/embed/OHfm1b3Dxy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="youtube" src="https://youtu.be/-nRXy7OV9t0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
 
                             <div class="swiper-slide video-item" v-on:click="toggleModal">
-                                <iframe class="youtube" src="https://www.youtube.com/embed/4CxMKJTdx2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="youtube" src="https://youtu.be/X8RAsuQ_9Os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
 
                         </div>
@@ -395,8 +369,7 @@
             <section class="contact-container" id="contacto">
                 <div class="grid-container">
                     <div class="left-container">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13385.673767538694!2d-73.63309417489694!3d4.104594626730994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cc319586d23559!2sBarrio%201ro%20de%20Mayo!5e0!3m2!1ses!2sco!4v1624422431087!5m2!1ses!2sco"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13385.673767538694!2d-73.63309417489694!3d4.104594626730994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cc319586d23559!2sBarrio%201ro%20de%20Mayo!5e0!3m2!1ses!2sco!4v1624422431087!5m2!1ses!2sco"
                             allowfullscreen="" loading="lazy" class="mapa"></iframe>
                     </div>
                     <div class="right-container">
@@ -416,12 +389,10 @@
                         </div>
                         <div class="buttons-container">
                             <a href="mailto:contacto@frutosdelcampocta.com">
-                                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624398397/img/botones_Mesa_de_trabajo_1_grcfkk.png"
-                                    alt="Botton de gmail" class="contact-button">
+                                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624398397/img/botones_Mesa_de_trabajo_1_grcfkk.png" alt="Botton de gmail" class="contact-button">
                             </a>
                             <a href="https://wa.link/ldmk5m" target="blank">
-                                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624398397/img/botones-02_ulv2r8.png"
-                                    alt="Botton de whatsapp">
+                                <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624398397/img/botones-02_ulv2r8.png" alt="Botton de whatsapp">
                             </a>
                         </div>
                     </div>
@@ -459,8 +430,7 @@
             </section>
 
             <a class="arriba" v-on:click="animation">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                 </svg>
             </a>
