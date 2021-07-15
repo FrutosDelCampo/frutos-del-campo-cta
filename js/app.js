@@ -41,7 +41,7 @@ const app = new Vue({
 
         texts2: [{
                 title: "Planta empacadora",
-                paragraph: "Certificada por el ICA con Código No EMP 500016, Capacidad de empaque de 2 contenedores diarios, (40.800 Kilos), donde manejamos los más altos estándares de calidad, Bioseguridad e inocuidad del producto.",
+                paragraph: "Poseemos una planta empacadora con capacidad de empaque de 40.800 kilos diarios donde manejamos estándares de calidad y bioseguridad tanto al producto como para el trabajador.",
             },
             {
                 title: "Cultivo",
@@ -77,7 +77,7 @@ const app = new Vue({
             },
             {
                 title: "Planta",
-                paragraph: "Poseemos una planta empacadora con capacidad de empaque de 40.800 kilos diarios donde manejamos estándares de calidad y bioseguridad tanto al producto como para el trabajador.",
+                paragraph: "Poseemos una planta empacadora con suficiencia de 40.800kilos donde manejamos estandares de calidad y bioseguridad tanto al producto como para el trabajador.",
             },
             {
                 title: "Exportación",
