@@ -27,7 +27,7 @@ const app = new Vue({
 
         texts: [{
                 title: "¿Quiénes somos?",
-                paragraph: "Frutos  Del Campo, es una Cooperativa de Trabajo Asociado. Especializada en la producción de Papaya de la más alta calidad, constituida en el año 2018 en la ciudad de Villavicencio Departamento del Meta Colombia, formada por un grupo de agricultores e ingenieros, con más de 15 años de experiencia en la siembra, producción, distribución y comercialización de papaya a nivel nacional e internacional.",
+                paragraph: "Frutos Del Campo, es una Cooperativa de Trabajo Asociado. Especializada en la producción y venta de Papaya de la más alta calidad, constituida en la ciudad de Villavicencio Departamento del Meta Colombia, formada por un grupo de agricultores e ingenieros, con más de 15 años de experiencia en la siembra, producción, distribución y comercialización de papaya a nivel nacional e internacional.",
             },
             {
                 title: "Misión",
@@ -55,7 +55,7 @@ const app = new Vue({
 
         certificadoDescargas: [{
                 title: "No. 505730167",
-                paragraph: "Registro como predio productor de las siguientes especies vegetales para la exportación en fresco: Papaya (Carica Papaya), en un área de ocho (8) hectáreas y Plátano (Musa Paradisiaca), con siete (7) hectáreas.",
+                paragraph: "Registro como predio productor de vegetales en fresco  para  exportación: Papaya (Carica Papaya).",
                 file: "./Files/RegistroNo505730167.pdf",
             },
             {
@@ -77,11 +77,11 @@ const app = new Vue({
             },
             {
                 title: "Planta",
-                paragraph: "Poseemos una planta empacadora con suficiencia de 40.800kilos donde manejamos estandares de calidad y bioseguridad tanto al producto como para el trabajador.",
+                paragraph: "Poseemos una planta empacadora con capacidad de empaque de 40.800 kilos diarios donde manejamos estándares de calidad y bioseguridad tanto al producto como para el trabajador.",
             },
             {
                 title: "Exportación",
-                paragraph: "Poseemos infraestructura para exportación con altos estándares de calidad, bioseguridad e inocuidad de la Papaya Tainung.",
+                paragraph: "1) Contamos con toda la logística y documentación requerida para exportar  Papaya, actualmente exportamos para América del Norte (Canadá). 2) Poseemos infraestructura para exportación con altos estándares de calidad, bioseguridad e inocuidad de la Papaya.",
             },
         ],
         swiperImagenes: null
