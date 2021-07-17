@@ -132,6 +132,10 @@
     flex-direction: column;
 }
 
+.redes__query{
+    display: none;
+}
+
 @media (max-width:895px) {
     .grid-container {
         grid-template-columns: 100%;
@@ -187,6 +191,19 @@
     .redes__sociales {
         display: none;
     }
+
+    .redes__query{
+        display: flex ;
+        margin: auto;
+
+    }
+
+    .redes__query svg{
+    width: 50px;
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    }
+
     .marca img {
         height: 15px;
     }
