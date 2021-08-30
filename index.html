@@ -26,7 +26,6 @@
     <link rel="stylesheet" href="./css/gallery.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/modal.css" />
-    <link rel="stylesheet" href="./css/slide.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -127,7 +126,7 @@
             <section class="partners">
                 <h2 class="titulo__partners">Nuestros aliados</h2>
                 <div class="partners-container">
-                    <div class="swiper-container cambiar__logos">
+                    <div class="swiper cambiar__logos">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide tamano">
                                 <a href="https://www.freshteruma.com">
@@ -323,7 +322,7 @@
                                     d="M15 19l-7-7 7-7"></path>
                             </svg></button>
                     </div>
-                    <div class="swiper-container imagenes">
+                    <div class="swiper imagenes">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide video-item" v-on:click="toggleModal">
                                 <iframe class="youtube" src="https://www.youtube.com/embed/6I42HmBKoXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -452,16 +451,8 @@
                 </svg>
             </a>
         </main>
-
-        <!-- <div :class="modal">
-            <div class="modal__container">
-                <span id="modalClose" v-on:click="toggleModal">Cerrar</span>
-                <iframe class="video-modal" :src="linksY[2]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div> -->
     </div>
 
-    <!-- escribir parentesis en CloseModal  -->
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
