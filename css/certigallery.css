@@ -20,7 +20,7 @@
 
 .container-certigallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto;
     margin-top: 20px;
     text-align: justify;
 }
