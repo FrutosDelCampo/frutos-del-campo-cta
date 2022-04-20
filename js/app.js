@@ -15,7 +15,7 @@ const app = new Vue({
             "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
         ],
         imagen1: [
-            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626440960/img/quienes_somos-01_mjp0xo.png",
+            "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1650427810/img/senior_fuera-01_xfm6gc.png",
             "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626117056/img/misionn-01_ylmfb4.png",
             "https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626117056/img/vision-01_cgtiwt.png",
         ],
